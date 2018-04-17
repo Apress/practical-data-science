@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<document>
+  <row>
+    <id>1</id>
+    <postcode>AB10 1XG</postcode>
+    <latitude>57.14416516</latitude>
+    <longitude>-2.114847768</longitude>
+    <FirstCode>AB10</FirstCode>
+    <SecondCode>1XG</SecondCode>
+  </row>
+  <row>
+    <id>2</id>
+    <postcode>AB10 6RN</postcode>
+    <latitude>57.13787976</latitude>
+    <longitude>-2.121486688</longitude>
+    <FirstCode>AB10</FirstCode>
+    <SecondCode>6RN</SecondCode>
+  </row>
+  <row>
+    <id>3</id>
+    <postcode>AB10 7JB</postcode>
+    <latitude>57.12427377</latitude>
+    <longitude>-2.127189644</longitude>
+    <FirstCode>AB10</FirstCode>
+    <SecondCode>7JB</SecondCode>
+  </row>
+  <row>
+    <id>4</id>
+    <postcode>AB11 5QN</postcode>
+    <latitude>57.14270109</latitude>
+    <longitude>-2.093295</longitude>
+    <FirstCode>AB11</FirstCode>
+    <SecondCode>5QN</SecondCode>
+  </row>
+  <row>
+    <id>5</id>
+    <postcode>AB11 6UL</postcode>
+    <latitude>57.13754663</latitude>
+    <longitude>-2.112233</longitude>
+    <FirstCode>AB11</FirstCode>
+    <SecondCode>6UL</SecondCode>
+  </row>
+</document>

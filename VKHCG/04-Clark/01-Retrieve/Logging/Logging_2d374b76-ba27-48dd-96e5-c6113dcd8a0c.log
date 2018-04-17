@@ -1,0 +1,5 @@
+11-11 13:30 root         INFO     Practical Data Science is fun!.
+11-11 13:30 Apllication-04-Clark-01-Retrieve-debug DEBUG    Practical Data Science logged a debugging message.
+11-11 13:30 Apllication-04-Clark-01-Retrieve-info INFO     Practical Data Science logged information message.
+11-11 13:30 Apllication-04-Clark-01-Retrieve-warning WARNING  Practical Data Science logged a warning message.
+11-11 13:30 Apllication-04-Clark-01-Retrieve-error ERROR    Practical Data Science logged an error message.

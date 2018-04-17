@@ -1,0 +1,7 @@
+Start Information Log File 2017/07/09 20:50:50
+Practical Data Scientist Load library: readr
+Practical Data Scientist Load library: data.table
+Practical Data Scientist Load library: tibble
+Practical Data Scientist Retrieve data file: /scratch/afv/VKHCG/01-Vermeulen/00-RawData/Country_Code.csv
+Practical Data Scientist Stores Retrieve data file: /scratch/afv/VKHCG/01-Vermeulen/01-Retrieve/01-EDS/01-R/Retrieve_Country_Code.csv
+Stop Information Log File 2017/07/09 20:50:50

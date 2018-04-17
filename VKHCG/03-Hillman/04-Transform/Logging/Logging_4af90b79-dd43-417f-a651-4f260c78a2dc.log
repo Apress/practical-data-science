@@ -1,0 +1,5 @@
+11-11 13:30 root         INFO     Practical Data Science is fun!.
+11-11 13:30 Apllication-03-Hillman-04-Transform-debug DEBUG    Practical Data Science logged a debugging message.
+11-11 13:30 Apllication-03-Hillman-04-Transform-info INFO     Practical Data Science logged information message.
+11-11 13:30 Apllication-03-Hillman-04-Transform-warning WARNING  Practical Data Science logged a warning message.
+11-11 13:30 Apllication-03-Hillman-04-Transform-error ERROR    Practical Data Science logged an error message.
