@@ -6,6 +6,7 @@ import os
 import pandas as pd
 import sqlite3 as sq
 from pandas.io import sql
+from collections import OrderedDict
 ################################################################
 if sys.platform == 'linux': 
     Base=os.path.expanduser('~') + '/VKHCG'
@@ -203,11 +204,16 @@ for l in range(2,8):
                        ('Box_per_Width',(format(2**w,"4d"))), 
                        ('Box_per_Height',(format(2**h,"4d")))]
             if t==1:
-               PalletFrame = pd.DataFrame.from_items(PalletLine) 
+                PalletFrame = pd.DataFrame.from_dict(OrderedDict(PalletLine)) 
             else:
-                PalletRow = pd.DataFrame.from_items(PalletLine)
+                PalletRow = pd.DataFrame.from_dict(OrderedDict(PalletLine))
                 PalletFrame = PalletFrame.append(PalletRow)
 PalletFrame.set_index(['IDNumber'],inplace=True)
+print("#######################")
+sTable = "Assess_Pallet"
+print("Storing:",sDatabaseName,"Table:",sTable)
+PalletFrame.to_sql(sTable, conn,if_exists="replace")
+print("#######################")
 ################################################################
 PalletFrame.head()
 print('################################')

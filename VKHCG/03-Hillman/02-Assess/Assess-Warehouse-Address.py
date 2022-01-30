@@ -4,7 +4,10 @@
 import os
 import pandas as pd
 from geopy.geocoders import Nominatim
-geolocator = Nominatim()
+geolocator = Nominatim(user_agent="My_geolocate")
+# use default user_agent = "My_geolocate", optional, we can use
+# our gmail id instead of "My_geolocate".
+
 ################################################################
 InputDir='01-Retrieve/01-EDS/01-R'
 InputFileName='Retrieve_GB_Postcode_Warehouse.csv'
